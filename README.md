@@ -75,11 +75,11 @@ Reviews are scraped from the Kenya Google Play Store using `google-play-scraper`
 Distribution of ratings, review volumes per app, temporal trends, language detection, and emoji usage are examined to guide preprocessing and modelling decisions.
 
 - Review count per app
-![Review count per app](image.png)
+![Review count per app](images/Review_count_per_app.png)
 - star-rating distributions
-![Star-rating distributions](image-1.png)
+![Star-rating distributions](star-rating_distrubutions.png)
 -  Time trend for number of riviews
-![Time Trend](image-2.png)
+![Time Trend](Time_trend.png)
 ### 3. Data Preprocessing
 A multi-step NLP pipeline cleans and prepares the text:
 
@@ -99,7 +99,7 @@ Latent Dirichlet Allocation is applied to negative reviews only to surface hidde
 | 1 | Failed Transaction |
 | 2 | Hidden Charges |
 | 3 | Customer Support |
-![Top Words per Topic](image-3.png)
+![Top Words per Topic](images/Top_Words_per_Topic.png)
 - Because Kenyan users pack multiple complaints into short, emotionally charged reviews, LDA topics overlap significantly. A keyword classifier (`complaint_label`) becomes more reliable for downstream modelling.
 
 ### 5 · Classical ML Modelling
@@ -146,7 +146,7 @@ A composite **FDI** is constructed from four normalised indicators:
 | **Rating Stress** | Deviation from maximum rating |
 | **Trend Acceleration** | Complaint growth vs rolling average |
 | **Shock Intensity** | Z-score standardised anomaly signal |
-![Distrubution of Financial Distress Level](image-4.png)
+![Distrubution of Financial Distress Level](images/Financial_Distress.png)
 The FDI is scaled 0–1 and classified into four distress levels:
 
 - 🟢 **Green** — Normal operations
@@ -155,5 +155,5 @@ The FDI is scaled 0–1 and classified into four distress levels:
 - 🔴 **Red** — Critical — systemic risk detected
 
 Aanalysis of the velocity and direction of financial distress trends over time.
-![alt text](image.png)
+![alt text](images/image.png)
 The Financial Distress Index provides a practical approach for detecting risk patterns early and supporting data-driven decision-making.
