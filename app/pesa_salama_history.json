@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2026-05-23",
+    "time": "22:41:00",
+    "review": "Hii app haifanyi vizuri",
+    "sentiment": "negative",
+    "confidence": 72.3,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "date": "2026-05-23",
+    "time": "22:40:38",
+    "review": "Hii app haifanyi",
+    "sentiment": "positive",
+    "confidence": 70.1,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "date": "2026-05-23",
+    "time": "22:40:36",
+    "review": "Hii app haifanyi",
+    "sentiment": "positive",
+    "confidence": 70.1,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "date": "2026-05-23",
+    "time": "22:40:26",
+    "review": "Hii app haifanyi",
+    "sentiment": "positive",
+    "confidence": 70.1,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "date": "2026-05-23",
+    "time": "22:40:06",
+    "review": "Hii app ni mbaya",
+    "sentiment": "negative",
+    "confidence": 72.3,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "date": "2026-05-23",
+    "time": "22:37:43",
+    "review": "The app ni mbaya\n",
+    "sentiment": "negative",
+    "confidence": 69.3,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "Swahili",
+    "feedback": ""
+  },
+  {
+    "time": "22:13:45",
+    "review": "The app is not working\n",
+    "sentiment": "negative",
+    "confidence": 69.3,
+    "category": "\ud83d\udcf1 App Issues",
+    "language": "English",
+    "feedback": ""
+  }
+]
