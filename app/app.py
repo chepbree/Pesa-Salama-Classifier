@@ -150,13 +150,13 @@ html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
 
 @st.cache_resource(show_spinner=False)
 def load_model():
-    saved = joblib.load("04.advancedxgboostmodelfinal.pkl")
+    saved = joblib.load("advancedxgboostmodelfinal.pkl")
     return saved["tfidf"], saved["model"]
 
 try:
     vectorizer, model = load_model()
 except FileNotFoundError as e:
-    st.error(f"⚠️ Model file not found: {e}\n\nEnsure 04.advancedxgboostmodelfinal.pkl is in the same folder as app.py")
+    st.error(f"⚠️ Model file not found: {e}\n\nEnsure advancedxgboostmodelfinal.pkl is in the same folder as app.py")
     st.stop()
 
 # =============================================================================
