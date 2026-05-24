@@ -150,7 +150,7 @@ html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
 
 @st.cache_resource(show_spinner=False)
 def load_model():
-    saved = joblib.load("advancedxgboostmodelfinal.pkl")
+    saved = joblib.load("./advancedxgboostmodelfinal.pkl")
     return saved["tfidf"], saved["model"]
 
 try:
