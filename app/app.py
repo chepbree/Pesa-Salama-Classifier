@@ -13,6 +13,8 @@ from datetime import datetime, date
 from langdetect import detect
 import plotly.graph_objects as go
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "advancedxgboostmodelfinal.pkl")
 
 # =============================================================================
 # PAGE CONFIG
@@ -150,7 +152,7 @@ html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
 
 @st.cache_resource(show_spinner=False)
 def load_model():
-    saved = joblib.load("./advancedxgboostmodelfinal.pkl")
+    saved = joblib.load(MODEL_PATH)
     return saved["tfidf"], saved["model"]
 
 try:
